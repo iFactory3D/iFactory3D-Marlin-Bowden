@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "G:/iFactoryOne_Chitu - Neu_bowden/Marlin-2.0.x (1)/Marlin-2.0.x/.pio/build/chitu_f103/firmware.elf",
+            "projectEnvName": "chitu_f103",
+            "toolchainBinDir": "C:/Users/ID137/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/ID137/.platformio/platforms/ststm32@12.0.0/misc/svd/STM32F103xx.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug (chitu_f103)"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "G:/iFactoryOne_Chitu - Neu_bowden/Marlin-2.0.x (1)/Marlin-2.0.x/.pio/build/chitu_f103/firmware.elf",
+            "projectEnvName": "chitu_f103",
+            "toolchainBinDir": "C:/Users/ID137/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/ID137/.platformio/platforms/ststm32@12.0.0/misc/svd/STM32F103xx.svd"
+        }
+    ]
+}
